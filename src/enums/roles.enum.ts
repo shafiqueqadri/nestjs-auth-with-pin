@@ -1,0 +1,7 @@
+export enum ERole {
+  SUDO = 'SUDO',
+  APPLICANT = 'APPLICANT',
+  COMPANY_ADMIN = 'COMPANY_ADMIN',
+  MANAGER = 'MANAGER',
+  USER = 'USER',
+}
