@@ -14,7 +14,7 @@ export class TwilioService extends CommonServices {
 
   sendSms = async (text, to) => {
     console.log('tetx', text, 'to', to);
-    return;
+
     const message = new Promise((resolve, reject) => {
       client.messages
         .create({
